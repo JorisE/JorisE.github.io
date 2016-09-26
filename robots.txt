@@ -1,0 +1,4 @@
+Sitemap: https://joris.engbers.info/sitemapindex.xml
+
+User-Agent: *
+Host: joris.engbers.info

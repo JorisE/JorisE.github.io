@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="description" content="This is a website about things you might find on the internet.">
 <meta name="viewport" content="width=device-width">
 <title>Le Website | Le Website</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bitter.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
 <link href="assets/css/rst.css" rel="stylesheet" type="text/css">
 <link href="assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://jorise.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 </head>
-<body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
-            
-            
-        <div class="postbox">
-        <h1><a href="posts/running-a-test-suite-a-dependency-is-updated/">Using IFTTT to run a Test Suite when a Dependency is Updated</a></h1>
-            <div class="meta" style="background-color: rgb(234, 234, 234); ">
-                <span class="authordate">
-                    Posted: <time class="published" datetime="2016-09-17T22:58:48+02:00">2016-09-17 22:58</time></span>
-                <br><span class="tags">Tags: 
-                            <a class="tag" href="categories/continuous-integration/"><span>Continuous Integration</span></a>
-                            <a class="tag" href="categories/ifttt/"><span>IFTTT</span></a>
-                </span>
+<body>
+    <section class="social"><ul>
+<li><a href="#" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/jorisengbers" title="My Twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/JorisE" title="My Github"><i class="icon-github"></i></a></li>
+
+        </ul></section><section class="page-content"><div class="content" rel="main">
+        <div class="post">
+            <h1 class="title"><a href="posts/running-a-test-suite-a-dependency-is-updated/">Using IFTTT to run a Test Suite when a Dependency is Updated</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2016-09-17T22:58:48+02:00">2016-09-17 22:58</time>
+</div>
+                <div class="stats">
+                            
+
+                </div>
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/continuous-integration/" rel="tag">Continuous Integration</a></li>
+           <li><a class="tag p-category" href="categories/ifttt/" rel="tag">IFTTT</a></li>
+        </ul>
+</div>
+
             </div>
-        <div id="outline-container-sec-1" class="outline-2">
+            <div class="body">
+                <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">Software that uses other software</h2>
 <div class="outline-text-2" id="text-1">
 <p>
@@ -46,102 +62,49 @@ and make an API call when a new commit is added. In this case, I have used
 <a href="https://circleci.com">CircleCI</a>, but it should work for any CI system that allows starting a build
 using an API.
 </p>
+
+<p class="more"><a href="posts/running-a-test-suite-a-dependency-is-updated/">Read more…</a></p>
 </div>
 </div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Starting a testsuite on updates for dependent projects</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-Github has an RSS feed for all commit in a repository at
-<code>https://github.com/{username}/{repo}/commits/{branch-name}.atom</code>. To use new
-commits as a <i>Trigger</i>, the RSS integration can be used.
-</p>
-
-
-<div class="figure">
-<p><img src="images/ifttt_step_1.png" alt="ifttt_step_1.png"></p>
-</div>
-
-<p>
-CircleCI allows starting a build using a POST request at:
-<code>https://circleci.com/api/v1/project/{username}/{yapfify}/tree/master?circle-token={api-token}</code>
-</p>
-
-<p>
-To use that as an <i>Action</i>, the <i>Maker</i> integration can be used. 
-</p>
-
-
-<div class="figure">
-<p><img src="images/ifttt_step_2.png" alt="ifttt_step_2.png"></p>
-</div>
-</div>
-</div>
-            
-        
-
-
-        </div>
-        <div class="postbox">
-        <h1><a href="posts/the-most-important-site-on-the-internet/">The Most Important Site on the Internet</a></h1>
-            <div class="meta" style="background-color: rgb(234, 234, 234); ">
-                <span class="authordate">
-                    Posted: <time class="published" datetime="2016-09-17T21:21:05+02:00">2016-09-17 21:21</time></span>
-                <br><span class="tags">Tags: 
-                            <a class="tag" href="categories/important/"><span>important</span></a>
-                            <a class="tag" href="categories/things/"><span>things</span></a>
-                </span>
             </div>
-        <p>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/the-most-important-site-on-the-internet/">The Most Important Site on the Internet</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2016-09-17T21:21:05+02:00">2016-09-17 21:21</time>
+</div>
+                <div class="stats">
+                            
+
+                </div>
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/important/" rel="tag">important</a></li>
+           <li><a class="tag p-category" href="categories/things/" rel="tag">things</a></li>
+        </ul>
+</div>
+
+            </div>
+            <div class="body">
+                <p>
 <a href="http://kuvaton.com/">kuvaton</a>
 </p>
-            
-        
-
-
+            </div>
         </div>
     
+            
 
     
-        
-
-
-	
-
-
-        </div>
-        <div id="sidebar">
-            <!--Sidebar content-->
-            <h1 id="blog-title">
-                <a href="https://jorise.github.io/" title="Le Website">Le Website</a>
-            </h1>
+                     <footer id="footer"><p>Contents © 2016         <a href="mailto:info@jorisengbers.nl">JHA Engbers</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
-            
-            <ul class="unstyled">
-<li>
-            
-                <li>
-<a href="archive.html">Archive</a>
-                </li>
-<li>
-<a href="categories/">Tags</a>
-                </li>
-<li>
-<a href="rss.xml">RSS feed</a>
-
-            </li>
-<li>
-            
-            
-            </ul>
+        </footer>
 </div>
-        <div id="footer">
-            Contents © 2016         <a href="mailto:info@jorisengbers.nl">JHA Engbers</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
-        </div>
-    </div>
-    
-            <script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    </section><script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="assets/js/jquery.timeago.js" type="text/javascript"></script><script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
 </body>
 </html>

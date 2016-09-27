@@ -21,17 +21,20 @@ and make an API call when a new commit is added. In this case, I have used
 [[https://circleci.com][CircleCI]], but it should work for any CI system that allows starting a build
 using an API.
 
+#+HTML: <!-- TEASER_END -->
+
 * Starting a testsuite on updates for dependent projects
 
 Github has an RSS feed for all commit in a repository at
 =https://github.com/{username}/{repo}/commits/{branch-name}.atom=. To use new
 commits as a /Trigger/, the RSS integration can be used.
 
-[[./../../images/ifttt_step_1.png]]
+[[img://ifttt_step_1.png]]
 
 CircleCI allows starting a build using a POST request at:
 =https://circleci.com/api/v1/project/{username}/{yapfify}/tree/master?circle-token={api-token}=
 
 To use that as an /Action/, the /Maker/ integration can be used. 
 
-[[./../../images/ifttt_step_2.png]]
+[[img://ifttt_step_2.png]]
+

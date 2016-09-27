@@ -1230,7 +1230,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        # ('https://getnikola.com', 'About me', 'icon-user'),
+        ('https://getnikola.com', 'About me', 'icon-user'),
         ('https://twitter.com/jorisengbers', 'My Twitter', 'icon-twitter'),
         ('https://github.com/JorisE', 'My Github', 'icon-github'),
     )

@@ -1,4 +1,4 @@
-Sitemap: https://joris.engbers.info/sitemapindex.xml
+Sitemap: https://jorise.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: joris.engbers.info
+Host: jorise.github.io

@@ -6,87 +6,35 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://joris.engbers.info/authors/jha-engbers.xml</loc>
-  <lastmod>2016-09-17T20:53:00Z</lastmod>
+  <loc>https://jorise.github.io/categories/continuous-integration.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/authors/roberto-alsina.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
+  <loc>https://jorise.github.io/categories/ifttt.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/blog.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
+  <loc>https://jorise.github.io/categories/important.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/cat_nikola.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
+  <loc>https://jorise.github.io/categories/things.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/demo.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
+  <loc>https://jorise.github.io/galleries/demo/rss.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/important.xml</loc>
-  <lastmod>2016-09-25T20:31:00Z</lastmod>
+  <loc>https://jorise.github.io/galleries/rss.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/nikola.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
+  <loc>https://jorise.github.io/rss.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://joris.engbers.info/categories/python.xml</loc>
-  <lastmod>2016-09-17T20:50:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/categories/things.xml</loc>
-  <lastmod>2016-09-25T20:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/galleries/demo/rss.xml</loc>
-  <lastmod>2016-09-25T20:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/galleries/rss.xml</loc>
-  <lastmod>2016-09-25T20:31:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/categories/blog.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/categories/cat_nikola.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/categories/demo.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/categories/nikola.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/categories/python.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/galleries/demo/rss.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/galleries/rss.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/nl/rss.xml</loc>
-  <lastmod>2016-09-17T19:07:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/rss.xml</loc>
-  <lastmod>2016-09-26T19:44:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://joris.engbers.info/sitemap.xml</loc>
-  <lastmod>2016-09-26T19:44:00Z</lastmod>
+  <loc>https://jorise.github.io/sitemap.xml</loc>
+  <lastmod>2016-09-27T20:08:00Z</lastmod>
  </sitemap>
 </sitemapindex>

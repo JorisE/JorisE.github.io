@@ -12,7 +12,7 @@
 <link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
 <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<link rel="canonical" href="https://joris.engbers.info/">
+<link rel="canonical" href="https://jorise.github.io/">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
 </head>
 <body class="home blog">
@@ -20,6 +20,69 @@
         <div id="container" style="width:560px">
             
             
+        <div class="postbox">
+        <h1><a href="posts/running-a-test-suite-a-dependency-is-updated/">Using IFTTT to run a Test Suite when a Dependency is Updated</a></h1>
+            <div class="meta" style="background-color: rgb(234, 234, 234); ">
+                <span class="authordate">
+                    Posted: <time class="published" datetime="2016-09-17T22:58:48+02:00">2016-09-17 22:58</time></span>
+                <br><span class="tags">Tags: 
+                            <a class="tag" href="categories/continuous-integration/"><span>Continuous Integration</span></a>
+                            <a class="tag" href="categories/ifttt/"><span>IFTTT</span></a>
+                </span>
+            </div>
+        <div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Software that uses other software</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Most software is more or less dependent on the way another piece of software
+behaves. For software that tries to maintain compatibility with all versions of
+an application including the newest it makes sense to run a testsuite,
+confirming compatibility, whenever the other application is updated.
+</p>
+
+<p>
+<a href="https://iftttt.com">If This Then That (IFTTTT)</a> can be used to listen for all new commits on Github
+and make an API call when a new commit is added. In this case, I have used
+<a href="https://circleci.com">CircleCI</a>, but it should work for any CI system that allows starting a build
+using an API.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Starting a testsuite on updates for dependent projects</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Github has an RSS feed for all commit in a repository at
+<code>https://github.com/{username}/{repo}/commits/{branch-name}.atom</code>. To use new
+commits as a <i>Trigger</i>, the RSS integration can be used.
+</p>
+
+
+<div class="figure">
+<p><img src="images/ifttt_step_1.png" alt="ifttt_step_1.png"></p>
+</div>
+
+<p>
+CircleCI allows starting a build using a POST request at:
+<code>https://circleci.com/api/v1/project/{username}/{yapfify}/tree/master?circle-token={api-token}</code>
+</p>
+
+<p>
+To use that as an <i>Action</i>, the <i>Maker</i> integration can be used. 
+</p>
+
+
+<div class="figure">
+<p><img src="images/ifttt_step_2.png" alt="ifttt_step_2.png"></p>
+</div>
+</div>
+</div>
+            
+        
+
+
+        </div>
         <div class="postbox">
         <h1><a href="posts/the-most-important-site-on-the-internet/">The Most Important Site on the Internet</a></h1>
             <div class="meta" style="background-color: rgb(234, 234, 234); ">
@@ -51,7 +114,7 @@
         <div id="sidebar">
             <!--Sidebar content-->
             <h1 id="blog-title">
-                <a href="https://joris.engbers.info/" title="Le Website">Le Website</a>
+                <a href="https://jorise.github.io/" title="Le Website">Le Website</a>
             </h1>
             
             
